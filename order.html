@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Order Samsung Galaxy Z Fold 8</title>
+</head>
+<body class="order-page">
+    <main class="order">
+        <a href="index.html" class="back__button"> &larr; Back to product page</a>
+        <h1>Order your Galaxy Z Fold 8</h1>
+        <p class="order__intro">Fill in your details and choose your preferred storage option</p>
+        <form>
+            <div class=" customer customer__info">
+            <div>
+            <label for="firstName">First name</label>
+
+
+        <input type="text" name="firstName" id="firstName" placeholder="John" required>
+        
+        </div>
+        <div>
+        <label for="lastName">Last name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Smith" required>
+        
+        </div>
+        <div>
+            <label for="phone">Phone number</label>
+        <input type="tel" name="phone" id="phone" placeholder="+47 12345678" required>
+        
+        </div>
+        <div>
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+        </div>
+        </div>
+    <fieldset>
+        <legend>Choose storage</legend>
+     <ul>
+            <li class="options__list">
+                <label>
+                    <input type="radio" name="storage" value="256GB" required>
+                    256 GB
+                
+                <div class="storage__price"> 1 999 kr/mnd. or 23 990 kr</div> 
+                </label>
+            </li>
+             
+            <li class="options__list">
+                <label>
+                    <input type="radio" name="storage" value="512GB">
+                512 GB
+                <div class="storage__price"> 2 208 kr/mnd. or 26 490 kr
+
+                </div>
+                </label>
+            </li>
+            
+            <li class="options__list">
+                <label>
+                    <input type="radio" name="storage" value="1TB">
+                    1 TB
+                
+                  <div class="storage__price"> 2 583 kr/mnd. or 30 990 kr
+                 </div> 
+                </label>
+                  
+            </li>
+          
+        </ul>
+
+        </fieldset>
+       <fieldset class="order__colour-choice">
+        <legend>Choose your colour</legend>
+        <div class="order__colour-options">
+            <label>
+            <input type="radio" name="colour" value="pistachio" required>
+            <span class="order__colour-dot pistachio"></span>
+            Pistachio
+</label>
+<label>
+    <input type="radio" name="colour" value="lavender">
+    <span class="order__colour-dot lavender"></span>
+    Lavender
+</label>
+<label>
+    <input type="radio" name="colour" value="graphite">
+    <span class="order__colour-dot graphite"></span>
+    Graphite
+</label>
+<label>
+    <input type="radio" name="colour" value="cream">
+    <span class="order__colour-dot cream"></span>
+    Cream
+</label>
+        </div>
+       </fieldset>
+<button type="submit">Place order</button>
+        </form>
+        </main>
+
+<footer>
+    <div>
+        This website was created for educational purposes only. It is a school project and is not affiliated with, endorsed by or sponsored by Samsung.
+    </div>
+</footer>
+</body>
+</html>
