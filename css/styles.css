@@ -482,3 +482,31 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/*  Prevent horizontal overflow on mobile */
+
+@media (max-width: 700px) {
+    .product {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .product__purchase {
+        flex-wrap: wrap;
+    }
+
+    .product__details, .product__details ul {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .product__details li {
+        overflow-wrap: anywhere;
+    }
+
+    .product figcaption {
+        overflow-wrap: anywhere;
+        white-space: normal;
+    }
+}
