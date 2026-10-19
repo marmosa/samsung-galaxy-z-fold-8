@@ -45,3 +45,7 @@ assets/images/ – Product images
 Disclaimer
 
 This is a fictional website created for educational purposes. It is not affiliated with Samsung, and no real orders are processed.
+
+## Links
+Live website: https://marmosa.github.io/samsung-galaxy-z-fold-8/
+GitHub repository: https://github.com/marmosa/samsung-galaxy-z-fold-8
